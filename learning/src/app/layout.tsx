@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Times Brasileiros",
+  title: "Times Brasileiros - Série A",
   description: "Esses são os times brasileiros da série A do brasileirão!",
 };
 
