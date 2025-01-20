@@ -2,7 +2,7 @@ import { Card } from '@/components/card/Card';
 import { Metadata } from 'next'
 
 export const metadata:  Metadata = {
-  title: "Cursos - Página Inicial"
+  title: "Times Brasileirão - Série A"
 }
 
 export default function Home() {
