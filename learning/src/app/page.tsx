@@ -8,7 +8,12 @@ export const metadata:  Metadata = {
 export default function Home() {
   return (
     <main>
-      <Card />
+      <Card 
+          href='/times/123'
+          image='/imagens/flamengo.jpg'
+          title='Clube de Regatas do Flamengo'
+          description='Um dos maiores times do Brasil. Campeão mundial e o segundo maior campeão nacional!s'
+      />
     </main>
   );
 }
