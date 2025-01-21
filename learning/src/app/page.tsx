@@ -8,7 +8,10 @@ export const metadata:  Metadata = {
 export default function Home() {
   return (
     <main>
-      <Section />
+      <Section 
+        title='Veja mais times'
+        variant='h-list'
+      />
 
     </main>
   );

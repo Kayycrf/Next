@@ -1,3 +1,4 @@
+import { Section } from '@/components/section/Section';
 import { Metadata } from 'next'
 
 export const metadata:  Metadata = {
@@ -7,7 +8,10 @@ export const metadata:  Metadata = {
 export default function PageTeams() {
   return (
     <main>
-      Times
+      <Section
+        title='Todos os times'     
+        variant='grid' 
+      />
     </main>
   );
 }
