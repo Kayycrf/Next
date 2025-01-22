@@ -8,7 +8,7 @@ export const metadata:  Metadata = {
 export default function PageTeams() {
   return (
     <main className='mt-8 flex justify-center'>
-      <div className='min-[800px]:max-w-[880]'>
+      <div className='w-full min-[800px]:max-w-[880]'>
         <Section
           title='Todos os times'     
           variant='grid' 

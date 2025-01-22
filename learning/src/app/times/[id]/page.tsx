@@ -1,3 +1,4 @@
+import { TeamHeader } from "@/components/header/team-header/team-header";
 import { Metadata } from "next";
 
 interface Props {
@@ -12,10 +13,14 @@ export async function genarateMetadata ({ params }: Props): Promise<Metadata> {
 
   };
 
-export default function PageCourseDetail({ params }: Props) {
+export default function PageTeamDetail({}: Props) {
     return (
-        <main className="mt-8 flex justify-center">
-            Conhecimento sobre o {params.id}
+        <main className='mt-8 flex justify-center'>
+            <div className='w-full max-w-full min-[800px]:max-w-[880]'>
+                <TeamHeader 
+                        
+                />
+            </div>
         </main>
     )
     
