@@ -8,7 +8,7 @@ export const metadata:  Metadata = {
 export default function Home() {
   return (
     <main className='mt-8 flex justify-center'>
-      <div className='min-[800px]:max-w-[880]'>
+      <div className='max-w-full min-[800px]:max-w-[880]'>
         <Section 
           title='Veja mais times'
           variant='h-list'
@@ -22,19 +22,19 @@ export default function Home() {
             {
               href: '/cursos/123',
               title: 'Sociedade Esportiva Palmeiras',
-              image:'/imagens/flamengo.jpg',
+              image:'/imagens/palmeiras.jpg',
               description: 'Um dos maiores times do Brasil. Campeão mundial e o segundo maior campeão nacional!'
             },
             {
               href: '/cursos/123',
               title: 'CLube de Regatas Vasco da Gama',
-              image:'/imagens/flamengo.jpg',
+              image:'/imagens/vasco.jpg',
               description: 'Um dos maiores times do Brasil. Campeão mundial e o segundo maior campeão nacional!'
             },
             {
               href: '/cursos/123',
               title: 'Santos Futebol Clube',
-              image:'/imagens/flamengo.jpg',
+              image:'/imagens/santos.jpeg',
               description: 'Um dos maiores times do Brasil. Campeão mundial e o segundo maior campeão nacional!'
             },
             
