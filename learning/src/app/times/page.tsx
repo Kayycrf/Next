@@ -14,25 +14,25 @@ export default function PageTeams() {
           variant='grid' 
           items={[
             {
-              href: '/cursos/123',
+              href: '/times/123',
               title: 'CLube de Regatas do Flamengo',
               image:'/imagens/flamengo.jpg',
               description: 'Um dos maiores times do Brasil. Campeão mundial e o segundo maior campeão nacional!'
             },
             {
-              href: '/cursos/123',
+              href: '/times/123',
               title: 'Sociedade Esportiva Palmeiras',
               image:'/imagens/palmeiras.jpg',
               description: 'Um dos maiores times do Brasil. O maior campeão nacional e possui 3 libertadores!!'
             },
             {
-              href: '/cursos/123',
+              href: '/times/123',
               title: 'CLube de Regatas Vasco da Gama',
               image:'/imagens/vasco.jpg',
               description: 'História incrível com grandes ídolos! Possui uma das maiores torcidas do Brasil!'
             },
             {
-              href: '/cursos/123',
+              href: '/times/123',
               title: 'Santos Futebol Clube',
               image:'/imagens/santos.jpeg',
               description: 'Um dos maiores times do Brasil. Bi Campeão mundial e um dos maiores campeões internacionais!'
