@@ -1,4 +1,6 @@
+import { ContentCopy } from "@/components/CopyContent"
 import { CollapsibleText } from "./components/CollapsibleText"
+import { MdShare } from "react-icons/md"
 
 
 export const TeamHeader = () => {
@@ -13,10 +15,12 @@ export const TeamHeader = () => {
             </CollapsibleText>
 
             <div className="flex gap-2 items-center">
-                <button className="py-2 px-4 bg-paper rounded-full">
-                    Compartilhar
-                </button>
-
+                <ContentCopy title='Copie o conteúdo abaixo' content='http://localhost:3000/times/123'>
+                    <button className="py-2 px-4 bg-paper rounded-full flex gap-2 items-center">
+                        <MdShare /> 
+                        Compartilhar
+                    </button>
+                </ContentCopy>
                 <span>
                     Uma vez Flamengo, Flamengo até morrer.
                 </span>
