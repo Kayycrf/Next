@@ -24,7 +24,7 @@ export const ContentCopy = ({ title, content, children}: IContentProps) => {
 
     return (
         <DropdownMenu.Root>
-            <DropdownMenu.Trigger>
+            <DropdownMenu.Trigger asChild>
                 {children}
             </DropdownMenu.Trigger>
             <DropdownMenu.Portal>
