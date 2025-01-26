@@ -24,7 +24,7 @@ export const CollapsibleText = ({ children, numberOfLinesWhenCLosed }: ICollapsi
             <button 
                 data-open={false}
                 onClick={() => setOpen(!open)}
-                className="bg-paper rounded-full px-2 py-2 data-[open=false]:-mt-6  "
+                className="bg-paper rounded-full px-2 py-2 data-[open=false]:-mt-6"
             >
             {open ? <MdArrowUpward /> : <MdArrowDownward />}
                     

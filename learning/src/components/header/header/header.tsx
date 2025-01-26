@@ -27,7 +27,7 @@ export default function Header() {
 
     return (
         <>
-            <nav className='flex items-center gap-6 justify-start md:justify-center bg-primary py-2 sm:py-4 px-6 fixed top-0 right-0 left-0'>
+            <nav className='flex items-center gap-6 justify-start md:justify-center bg-primary py-2 sm:py-4 px-6 fixed top-0 right-0 left-0 z-50'>
                 <button className='sm:hidden' onClick={() => setDrawer(true)}>
                     <MdMenu size={24}/>
                 </button>

@@ -23,11 +23,12 @@ export default function PageTeamDetail({}: Props) {
                     idChannel="1"
                     idTeam="1"
                     imageUrl="/imagens/flamengo.jpg"
+                    title='🔴⚫ Flamengo'
                 />
 
-                <TeamHeader 
-                        
-                />
+                <TeamHeader />
+                <TeamHeader />
+                <TeamHeader />
             </div>
         </main>
     )
