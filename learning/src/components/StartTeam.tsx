@@ -17,9 +17,9 @@ export const StartTeam = ({ idTeam, idChannel, imageUrl, title}: IStartTeamProps
     const [ref, inView] = useInView({threshold: 0.1, initialInView: true});
     return (
         <>
-            <div ref={ref} className="p-3 bg-paper rounded-md flex flex-col gap-4">
+            <div ref={ref} className="p-3 bg-paper rounded-md flex flex-col gap-4 md:sticky md:top-[104px]">
                 <Link
-                    className="w-full bg-cover bg-no-repeat aspect-video bg-center rounded"
+                    className="w-full bg-cover bg-no-repeat aspect-video bg-center rounded hover:no-underline"
                     style={{ backgroundImage: `url(${imageUrl})`}}
                     href={`/player/${idTeam}/${idChannel}`}
                 >
@@ -29,7 +29,7 @@ export const StartTeam = ({ idTeam, idChannel, imageUrl, title}: IStartTeamProps
                 </Link>
 
                 <Link 
-                    className="bg-primary p-2 px-3 rounded flex items-center justify-center gap-2"
+                    className="bg-primary p-2 px-3 rounded flex items-center justify-center gap-2 hover:no-underline"
                     href={'/player/{idTeam}/{idChannel}'}
                 >
                     Assistir vídeo
@@ -38,13 +38,13 @@ export const StartTeam = ({ idTeam, idChannel, imageUrl, title}: IStartTeamProps
              </div>
 
              {!inView && (
-                <div className="p-3 px-2 bg-paper flex flex-col gap-4 absolute left-0 right-0 top-14">
+                <div className="p-3 px-2 sm:my-4 bg-paper flex flex-col gap-4 absolute left-0 right-0 top-14">
                     <h1 className="font-extrabold text-xl">
                         {title}
                     </h1>
 
                     <Link 
-                        className="bg-primary p-2 px-3 rounded flex items-center justify-center gap-2"
+                        className="bg-primary p-2 px-3 rounded flex items-center justify-center gap-2 hover:no-underline"
                         href={'/player/{idTeam}/{idChannel}'}
                      >
                         Assistir vídeo
