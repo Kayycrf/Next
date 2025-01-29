@@ -1,6 +1,6 @@
 import { TeamHeader } from "@/components/header/team-header/team-header";
-import { Class } from "@/components/team-content/components/Class";
 import { StartTeam } from "@/components/StartTeam";
+import { ClassGroup } from "@/components/team-content/components/ClassGroup";
 import { Metadata } from "next";
 
 interface Props {
@@ -28,11 +28,15 @@ export default function PageTeamDetail({}: Props) {
                     />
                 </div>
                 
-                <div className="flex-[2]">
+                <div className="flex-[2] flex flex-col gap-4">
                     <TeamHeader />
-                    <Class
-                        playerUrl="https://youtu.be/mMIeK0gC6qk?si=WeY-S_XE0KJuvYjn"
-                        title='Bastidores de Flamengo 1 x 0 Atlético-MG - Copa do Brasil'
+                    <ClassGroup
+                        title='Vídeos do Flamengo'
+                        teamId='123'
+                        classes={[
+                            { id: '1234', title: 'Bastidores de Flamengo 1 x 0 Atlético-MG - Copa do Brasil'},
+                            { id: '2345', title: 'Reapresentação do Flamengo'}
+                        ]}
                     />
                 </div>
             </div>
