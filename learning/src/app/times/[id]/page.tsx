@@ -1,4 +1,5 @@
 import { TeamHeader } from "@/components/header/team-header/team-header";
+import { Class } from "@/components/team-content/components/Class";
 import { StartTeam } from "@/components/StartTeam";
 import { Metadata } from "next";
 
@@ -29,8 +30,10 @@ export default function PageTeamDetail({}: Props) {
                 
                 <div className="flex-[2]">
                     <TeamHeader />
-                    <TeamHeader />
-                    <TeamHeader />
+                    <Class
+                        playerUrl="https://youtu.be/mMIeK0gC6qk?si=WeY-S_XE0KJuvYjn"
+                        title='Bastidores de Flamengo 1 x 0 Atlético-MG - Copa do Brasil'
+                    />
                 </div>
             </div>
             
